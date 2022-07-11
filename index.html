@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encounter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#idea" class="nav__link">The Idea</a></li>
+                <li class="nav__item"><a href="#photo" class="nav__link">Gallery</a></li>
+                <li class="nav__item"><a href="#benches" class="nav__link">Explore</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--title-->
+    <section class="title" id="home">
+        <h1 class="section__title section__title--title">
+            <strong>Encounter</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--title">2022 Thesis Project</p>
+        <img src="img/logo1.png" alt="crystal" class="title__img">
+    </section>
+
+    <!--The Idea-->
+    <section class="my-idea" id="idea">
+        <h2 class="section__title section__title--idea">The Idea</h2>
+        <div class="ideas">
+            <div class="idea">
+                <h3>Redesign our Public Space</h3>
+                <p>
+                    Encounter is a public installation of two redesigned interactive park benches, which aims to stimulate unexpected, playful interactions between strangers in public space. It creates interactive experiences and lighting effects by detecting movement of passers-by and sitters.
+                </p>
+                <p>
+                    Through a reconsideration of ubiquitous public furniture - the park bench - this project demonstrates innovative approaches of experimenting with design to form interactive urban spaces.
+                </p>
+            </div>
+
+        </div>
+        <a href="https://www.crystaltan.net/encounter" class="btn">Learn More</a>
+        <a href="#photo" class="btn">Project Gallery</a>
+
+    </section>
+
+    <!--Gallery section-->
+    <section class="photos" id="photo">
+        <h2 class="section__title">Gallery</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="allphoto">
+            <div class="photo__item">
+                <img src="img/tu1.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu2.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu3.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu4.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu5.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu6.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu7.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu8.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu9.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu10.jpg" alt="" class="photo__img">
+            </div>
+            <div class="photo__item">
+                <img src="img/tu11.jpg" alt="" class="photo__img">
+            </div>
+        </div>
+
+    </section>
+
+    <!--Explore Public Benches-->
+    <section class="explore-benches" id="benches">
+        <h2 class="section__title">Explore Public Benches</h2>
+        <p class="section__subtitle">See benches in public space around the world (images credit to Unsplash)</p>
+        <div class="benches" id="searchBenches">
+        </div>
+        <button class="btn" id="reloadImage">See More</button>
+    </section>
+
+    <!--about me-->
+    <section class="about-me" id="about">
+        <h3 class="section__title section__title--about">Crystal(Xintong) Tan</h3>
+        <p class="section__subtitle section__subtitle--about">Web Developer, Creative Technologist, & Designer</p>
+
+        <div class="about-me__body">
+            <p>
+                I graduated from Parsons School of Design with MFA Design and Technology degree. I fall in love with coding my first year at Parsons. I am interested in using code to solve problems.
+            </p>
+            <p>
+                Influenced by my background in Landscape Architecture, I am passionate about collaborating with others to create exciting and accessible user experience. 
+            </p>
+
+</div>
+
+        <img src="img/crystal.jpg" alt="" class="about__img">
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.gom">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="mailto:xintongtan715@gmail.com">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.gom">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
